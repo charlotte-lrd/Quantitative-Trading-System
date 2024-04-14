@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    <title>Title</title>
+</head>
+
+<body>
+    <svg id="mainsvg" width="4200" height="3600"  class="svgs" :style="background-color: #ffffff;"></svg>
+<script type="text/javascript">
+
+var attestations = eval('{{slots |safe}}');
+console.log(attestations);
+
+// var link = eval('{{links |safe}}');
+// console.log(link);
+
+</script>
+</body>
+</html>
